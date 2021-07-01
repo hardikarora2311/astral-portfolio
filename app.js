@@ -9,6 +9,7 @@ const contactSec= document.querySelector(".contact-sec")
 
 homeBtn.addEventListener("click", function(){
     homeSec.style.display= "flex"
+    workSec.style.display= "none"
 })
 
 
@@ -16,5 +17,5 @@ homeBtn.addEventListener("click", function(){
 workBtn.addEventListener("click", function(){
     homeSec.style.display= "none"
     // contactSec.style.display="none"
-    // workSec.style.display= "flex"
+    workSec.style.display= "flex"
 })

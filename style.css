@@ -13,10 +13,11 @@
     justify-content: center;
     align-items: center;
     background-image:url("/assets/images/bg.jpg");
+
 }
 
 .nav-bar{
-    margin-bottom: 20px;
+    margin: 25px;
 }
 
 .info{
@@ -24,7 +25,9 @@
     margin-top: 45px;
 }
 
-
+footer{
+    background-color: #ffffff;
+}
 
 /* images */
 .hero-img{
@@ -68,3 +71,37 @@ small{
 
 /* work section */
 
+.work-sec{
+    position:  relative;
+    display: none;
+    flex-direction: column;
+    background-color: #ffffff;
+    height: 500px;
+    width: 546px;
+
+}
+
+.images{
+    position: absolute;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: auto auto auto; */
+    top: 120px;
+}
+
+.image{
+    width: 150px;
+    padding: 1em;
+}
+
+#work-text{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    flex-wrap: wrap;
+}
+
+#work-text strong{
+    font-size: 32px;
+}
