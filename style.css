@@ -19,12 +19,41 @@
 
 /* navigation bar */
 .nav-bar{
-    margin: 10px;
+    margin: 10px 10px 0 10px;
+}
+
+span{
+    position: relative;
+}
+
+.arrow-up {
+    position: absolute;
+    width:0px;
+    height:0px;
+    border:10px solid;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: white;
+    top: 25px;
+    right: 30px;
+}
+
+.w{
+    top: 15px;
+}
+.c{
+    top: 16px;
 }
 
 /* .button{
 
 } */
+
+
+
+
+
 
 i{
     font-size: 35px;
@@ -77,6 +106,7 @@ footer{
     justify-content: space-between;
     height: 260px;
     width: 650px;
+    margin-top: 10px;
 }
 
 #home-text{
