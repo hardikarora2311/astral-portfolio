@@ -19,7 +19,7 @@
 
 /* navigation bar */
 .nav-bar{
-    margin: 25px;
+    margin: 10px;
 }
 
 /* .button{
@@ -33,14 +33,22 @@ i{
     color: rgba(240, 255, 255, 0.692);
 }
 
+/* .fa-home{
+    color: #ffffff;
+} */
+
 i:hover{
     color: #ffffff;
+}
+
+.fa-twitter:hover{
+    color: #4c6ef5;
 }
 
 
 
 
-
+/* footer */
 .info{
     color: #ffffff;
     margin-top: 45px;
@@ -125,4 +133,56 @@ small{
 
 #work-text strong{
     font-size: 32px;
+}
+
+
+/* contact section */
+
+.contact-sec{
+    display: none;
+    background-color: #ffffff;
+    height: 600px;
+    flex-direction: column;
+    width: 600px;
+}
+
+.contact-sec strong{
+    font-size: 34px;
+    padding: 1em 1em 0.2em 1em;
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inputs{
+    margin: 1em 2em;
+    background-color:#f4f4f4 ;
+    padding: 1em;
+    border: solid #f4f4f4;
+}
+
+.subject{
+    width: 600px;
+}
+
+.message{
+    width: 600px;
+    height: 100px;
+}
+
+.email, .name{
+    flex: 1;
+}
+
+.submit-btn{
+    margin: 2em;
+    padding: 1em;
+    background-color:#222222 ;
+    color: #ffffff;
+    border: none;
+    width: 165px;
+    height: 50px ;
+    cursor: pointer;
 }
